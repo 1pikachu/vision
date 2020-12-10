@@ -16,7 +16,7 @@ node('master')
 			# begin test
 			echo "test start"
 			# get test exit code
-			echo 'test exit code is: "$?
+			echo "test exit code is: "$?
 		'''
 	}
 	stage('collect log'){
